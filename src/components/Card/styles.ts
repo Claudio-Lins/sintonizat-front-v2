@@ -11,7 +11,6 @@ export const Container = tw.div`
     p-4
 
     h1 {
-        text-2xl
         font-bold
         text-white
     }

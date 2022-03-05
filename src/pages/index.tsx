@@ -12,7 +12,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="">
-        <Card/>
+        <p>Texto</p>
+        {/* <Card/> */}
       </main>
     </div>
   )

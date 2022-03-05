@@ -4,9 +4,9 @@ import { Container } from "./styles";
 export function Card() {
   return (
     <Container className="text-4xl">
-      <h1>
+      <p>
         Título
-      </h1>
+      </p>
     </Container>
   )
 }

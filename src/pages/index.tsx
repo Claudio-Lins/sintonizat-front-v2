@@ -5,17 +5,19 @@ import { Card } from '../components/Card'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <>
       <Head>
         <title>Sintoniza-t</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="Sintoniza-t" />
       </Head>
-
-      <main className="">
-        <p>Texto</p>
-        <Card/>
-      </main>
-    </div>
+      <div className="">
+        <main className="">
+          <p>Texto</p>
+          <Card />
+        </main>
+      </div>
+    </>
   )
 }
 

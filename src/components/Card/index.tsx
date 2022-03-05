@@ -1,12 +1,12 @@
-import { Container, Title } from "./styles";
+import { Container } from "./styles";
 
 
 export function Card() {
   return (
     <Container className="text-4xl">
-      <Title>
+      <h1>
         Título
-      </Title>
+      </h1>
     </Container>
   )
 }

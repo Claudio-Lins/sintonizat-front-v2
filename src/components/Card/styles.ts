@@ -14,4 +14,13 @@ export const Container = tw.div`
         font-bold
         text-white
     }
+     
+    h2 {
+        font-bold
+        text-white
+    }
 `
+export const Form = tw.form`
+    flex
+    flex-col
+    `

@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container, Form } from "./styles";
 
 
 export function Card() {
@@ -8,5 +8,6 @@ export function Card() {
         Título
       </p>
     </Container>
+    
   )
 }
